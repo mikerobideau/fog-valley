@@ -1,0 +1,9 @@
+@import '/src/style';
+
+.search {
+  padding: $spacing;
+  color: $search-font-color;
+  border: 1px solid $search-border-color;
+  border-radius: 3px;
+  background: $search-background-color;
+}

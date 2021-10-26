@@ -1,0 +1,6 @@
+@import 'src/style';
+
+.computer {
+    border: 40px solid $computer-color;
+    min-height: calc(100vh - 80px);
+}

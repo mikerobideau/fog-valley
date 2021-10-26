@@ -1,0 +1,11 @@
+@import '/src/style';
+
+.transcript-preview {
+  padding: $spacing 0;
+  cursor: pointer;
+  color: $transcript-preview-color
+}
+
+.transcript-preview-new {
+  color: $transcript-preview-new-color;
+}

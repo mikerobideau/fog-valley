@@ -1,0 +1,1 @@
+import {SavedGame} from "../model/SaveGame";
