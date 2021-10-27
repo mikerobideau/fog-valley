@@ -1,4 +1,4 @@
-import {FunctionComponent} from "react";
+import React, {FunctionComponent} from "react";
 import Typewriter from "typewriter-effect";
 
 import {pauseCharacterTheme, playCharacterTheme} from "../../service/audioService";

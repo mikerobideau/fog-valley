@@ -11,3 +11,14 @@ export interface TranscriptData {
     title: string;
     character: Character;
 }
+
+export interface TranscriptResponse {
+    hasNewTranscripts: boolean,
+    totalTranscripts: number;
+    totalUnlockedTranscripts: number;
+    totalLockedTranscripts: number;
+    totalNewTranscripts: number;
+    newTranscripts: TranscriptData[],
+    previousTranscripts: TranscriptData[],
+    lockedTranscripts: TranscriptData[]
+}
